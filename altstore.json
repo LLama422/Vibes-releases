@@ -1,0 +1,38 @@
+{
+  "name": "Vibes",
+  "identifier": "io.github.llama422.vibes",
+  "subtitle": "Downloads for Vibes, a music player for Navidrome.",
+  "iconURL": "https://raw.githubusercontent.com/LLama422/Vibes-releases/main/icon.png",
+  "website": "https://github.com/LLama422/Vibes-releases",
+  "tintColor": "D4B678",
+  "apps": [
+    {
+      "name": "Vibes",
+      "bundleIdentifier": "com.llama422.vibes",
+      "developerName": "LLama422",
+      "subtitle": "A music player for Navidrome.",
+      "localizedDescription": "Vibes plays your music from a Navidrome server: playlists, downloads for offline, Smart Shuffle, a DJ, lyrics, listening stats, and playing on speakers and TVs. You need an account on a Navidrome server to use it.",
+      "iconURL": "https://raw.githubusercontent.com/LLama422/Vibes-releases/main/icon.png",
+      "tintColor": "D4B678",
+      "category": "entertainment",
+      "versions": [
+        {
+          "version": "0.1.1",
+          "buildVersion": "1",
+          "date": "2026-10-23T03:08:22Z",
+          "size": 8772579,
+          "downloadURL": "https://github.com/LLama422/Vibes-releases/releases/download/ios-1/Vibes.ipa",
+          "minOSVersion": "15.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSLocalNetworkUsageDescription": "Used to connect to your Navidrome server, and to find and play on speakers and TVs on your Wi-Fi.",
+          "NSPhotoLibraryUsageDescription": "Vibes uses a photo you pick as a playlist's cover."
+        }
+      }
+    }
+  ],
+  "news": []
+}
